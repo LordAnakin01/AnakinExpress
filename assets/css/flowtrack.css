@@ -1,21 +1,11 @@
 .why-choose-one__img {
-  position: relative;
-  left: 0;
-  bottom: 0;
-  z-index: 10;
-  transform: none;
-  width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto 24px auto;
+  margin-bottom: 30px;
+  text-align: center;
 }
-
 .why-choose-one__img img {
-  width: 100%;
-  max-width: 350px;
+  max-width: 100%;
   height: auto;
-  display: block;
-  margin: 0 auto;
+  display: inline-block;
 }
 
 .why-choose-one__floating-img {
@@ -47,7 +37,7 @@
     z-index: 1;
   }
   .why-choose-one__img img {
-    max-width: 80vw;
+    max-width: 70vw;
     width: 100%;
     height: auto;
     margin: 0 auto 24px auto;
