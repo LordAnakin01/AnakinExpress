@@ -3,59 +3,17 @@
   text-align: center;
 }
 .why-choose-one__img img {
-  max-width: 100%;
+  max-width: 350px;
+  width: 100%;
   height: auto;
   display: inline-block;
 }
-
-.why-choose-one__floating-img {
-  position: absolute;
-  left: 5%;
-  bottom: 0;
-  z-index: 2;
-  width: 40%;
-  max-width: 350px;
-  pointer-events: none;
-}
-.why-choose-one__floating-img img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
 @media (max-width: 991px) {
-  .why-choose-one .row {
-    display: block !important;
-  }
   .why-choose-one__img {
-    position: relative;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: auto;
-    margin: 0 auto 24px auto;
-    display: block;
-    z-index: 1;
+    margin-bottom: 20px;
   }
   .why-choose-one__img img {
     max-width: 70vw;
-    width: 100%;
-    height: auto;
-    margin: 0 auto 24px auto;
-    display: block;
-    position: relative;
-    z-index: 1;
-  }
-  .why-choose-one__left {
-    min-height: unset;
-    margin-top: 0;
-    padding-top: 0;
-  }
-  .why-choose-one__floating-img {
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 10px;
-    width: 60vw;
-    max-width: 260px;
   }
 }
 .why-choose-one .container, .why-choose-one .row, .why-choose-one__left, .why-choose-one__right {
